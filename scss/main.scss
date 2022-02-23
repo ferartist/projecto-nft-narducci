@@ -1,0 +1,58 @@
+@import "./extend/extend";
+
+@import "./secciones/main";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+i {
+    font-size: 300%;
+
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.nft {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    ;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulogaleria {
+    text-align: center;
+    color: aqua;
+
+    &:hover {
+        transform: rotateY(25deg) scale(1.1);
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+    }
+}
+.imagenesMono{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
